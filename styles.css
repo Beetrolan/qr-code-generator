@@ -10,6 +10,34 @@ form{
     gap: 2rem;
 }
 
+@media (max-width: 600px) {
+    form {
+        padding: 0.5rem 0.5rem;
+        min-width: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .internal {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .inputs {
+        width: 100%;
+        min-width: 0;
+    }
+    input {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 
 .inputs {
     width: 100%;
